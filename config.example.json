@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "modId": "YOUR_LOBBY_COMPONENT_ID",
+  "cookieProtected": "",
+  "sourcePath": "D:\\path\\to\\your_map",
+  "outputDirectory": "",
+  "archiveRoot": "map",
+  "includeDirectories": [
+    "behavior_packs",
+    "db",
+    "resource_packs"
+  ],
+  "includeFiles": [
+    "level.dat",
+    "level.dat_old",
+    "levelname.txt",
+    "world_behavior_packs.json",
+    "world_icon.jpeg",
+    "world_resource_packs.json"
+  ],
+  "excludePatterns": [
+    "**/*.pyc",
+    "**/__pycache__/**",
+    "**/.gitignore"
+  ]
+}

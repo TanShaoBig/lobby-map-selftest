@@ -1,0 +1,16 @@
+# Local credentials and task state (never commit)
+lobby-test.local.json
+lobby-test.last.json
+lobby-test.lock
+*.selftest.json
+
+# Generated packages and temporary files
+packages/
+*.tmp
+
+# Editor / OS noise
+.vs/
+.vscode/
+*.user
+Thumbs.db
+Desktop.ini
